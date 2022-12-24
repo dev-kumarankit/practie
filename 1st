@@ -1,0 +1,12 @@
+let numbers=[1,2,3,4,5]
+let newarr=[]
+
+numbers.map((x,index)=>{
+   let j=1
+let filteredArray = numbers.filter((e,ind)=>   ind !== index 
+).map((y,ind)=>{
+    j=j*y
+    if(ind+2 == numbers.length) console.log(j,"ind")
+})
+
+})
